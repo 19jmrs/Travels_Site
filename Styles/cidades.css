@@ -1,0 +1,70 @@
+    .div_img {
+        width: 100%;
+    }
+    
+    .content {
+        padding: 10px;
+    }
+    
+    img {
+        object-fit: cover;
+    }
+    
+    .lowerimg {
+        width: 50%;
+        float: left;
+    }
+    
+    .lower_img {
+        width: 49%;
+        height: 150px;
+        padding: 10px;
+    }
+    
+    .div_social {
+        width: 50%;
+        float: right;
+        height: auto;
+    }
+    
+    img:hover {
+        opacity: 0.7;
+    }
+    
+    .meteo {
+        width: 50%;
+        float: right;
+        height: 600px;
+    }
+    
+    .meteoIcon {
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+    .nomeCidade {
+        display: block;
+        text-align: center;
+        color: #0080B0;
+    }
+    
+    .currentTemp {
+        display: block;
+        text-align: center;
+        color: #0080B0;
+    }
+    
+    .maxTemp {
+        display: block;
+        text-align: center;
+        color: #0080B0;
+    }
+    
+    .minTemp {
+        display: block;
+        text-align: center;
+        color: #0080B0;
+    }

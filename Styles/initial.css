@@ -1,0 +1,27 @@
+.btn-secondary {
+    background-color: #bdbdbd;
+}
+
+.img_row {
+    border-radius: 50%;
+}
+
+.form-control {
+    font-family: calibri;
+}
+
+img {
+    object-fit: cover;
+}
+
+.a_carousel {
+    color: white;
+    height: 100;
+    font-size: x-large;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.a_carousel:hover {
+    background-color: #bdbdbd;
+}

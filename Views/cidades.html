@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://getbootstrap.com/docs/4.3/examples/carousel/ -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>JS Viagens</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./index_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="./index_files/carousel.css" rel="stylesheet">
+    <link href="../Styles/navbar.css" rel="stylesheet">
+    <link href="../Styles/cidades.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../Controllers/CityImg.js"></script>
+    <script type="text/javascript" src="../Controllers/SearchCity.js"></script>
+    <script type="text/javascript" src="../Controllers/Weather.js"></script>
+    <script type="text/javascript" src="../Controllers/News.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <img class="logo" src="../Imgs/logo.png">
+                    <a class="nav-link" href="../Views/index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Views/bestpromo.html">Best Promotions <span class="sr-only">(current)</span></a>
+                    <li class="nav-item dropdown show">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Manage Hotels</a>
+                        <div class="dropdown-menu show" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="AddHotel.html">Add Hotel</a>
+                            <a class="dropdown-item" href="DeleteHotel.html">Delete Hotel</a>
+                            <a class="dropdown-item" href="ManageHotel.html">Edit Hotel</a>
+                        </div>
+                    </li>
+                </ul>
+                <div>
+                    <input class="input_nav" type="text" placeholder="city,Country" aria-label="Search" id="cidade_pesquisa">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="Exist()">Search</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        <div class="div_img">
+            <div class="upperimg"><img id="img1" width="100%" height="500" onclick="biggerImg('img1')"></div>
+            <br>
+            <div class="lowerimg" id="lowerimg">
+                <img class="lower_img" id="img2">
+                <img class="lower_img" id="img3">
+                <img class="lower_img" id="img4">
+                <img class="lower_img" id="img5">
+                <img class="lower_img" id="img6">
+                <img class="lower_img" id="img7">
+                <img class="lower_img" id="img8">
+                <img class="lower_img" id="img9">
+            </div>
+            <div class="div_social">
+                <div class="meteo">
+                    <img class="meteoIcon" id="meteoIcon">
+                    <h2 class="nomeCidade" id="nomeCidade"></h2> <br>
+                    <h3 class="currentTemp" id="currentTemp"></h3>
+                    <br>
+                    <h4 class="maxTemp" id="maxTemp"></h4>
+                </div>
+            </div>
+        </div>
+
+        <footer class="container">
+
+            <p class="float-right"><a id="toTop" href="">Back to top</a></p>
+            <script>
+                var a = window.location.href;
+                document.getElementById("toTop").href = a;
+            </script>
+            <p>© 2019-2019 JS, Inc. ·</p>
+        </footer>
+    </main>
+    <script src="./index_files/bootstrap.bundle.min.js.transferir" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

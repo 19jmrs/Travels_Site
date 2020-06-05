@@ -1,0 +1,52 @@
+.navbar {
+    background-color: #6e0308;
+}
+
+.nav-link {
+    font-family: calibri;
+    color: white;
+    font-size: larger;
+}
+
+.nav-link:hover {
+    color: rgba(180, 175, 175, 0.911);
+}
+
+.logo {
+    height: 55px;
+    object-fit: cover;
+}
+
+.dropdown-menu.show {
+    display: none;
+}
+
+.dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu.show:hover {
+    display: block;
+}
+
+.btn {
+    float: right;
+    border-color: white;
+    color: white;
+}
+
+.input_nav {
+    float: left;
+    width: 70%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .380rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
